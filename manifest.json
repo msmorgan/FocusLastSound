@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Focus Last Sound",
+  "description": "When enabled, this extension focuses on the last tab in the current window to play a sound.",
+  "version": "1.0",
+
+  "browser_action": {
+    "name": "Click to activate tab switching",
+    "icon_default": "inactive.gif"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
